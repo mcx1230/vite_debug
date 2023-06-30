@@ -1,0 +1,24 @@
+{
+	"name": "vite_fail",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"dev": "vite --host",
+		"pro": "vite build"
+	},
+	"dependencies": {
+		"vue": "^2.6.14",
+		"vue-router": "^3.5.1"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-legacy": "^2.0.0",
+		"@vitejs/plugin-vue2": "^1.1.2",
+		"@vue/cli-plugin-router": "~5.0.0",
+		"@vue/cli-service": "~5.0.0",
+		"vite": "^3.0.2",
+		"vite-plugin-virtual-html-template": "^1.1.0",
+		"vue-template-compiler": "^2.6.14"
+	}
+}
