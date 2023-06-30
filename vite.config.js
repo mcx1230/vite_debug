@@ -60,5 +60,10 @@ export default defineConfig(({ command, mode }) => {
 			/*https://blog.csdn.net/JokerSoulClub/article/details/128485767*/
 			/*https://www.npmjs.com/package/vite-plugin-virtual-html-template*/
 		],
+		resolve: {
+			alias: {
+				'@': resolve(__dirname, './src'),
+			}
+		},
 	}
 })
